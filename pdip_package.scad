@@ -64,7 +64,7 @@ module body(nr_legs=14, width=6.477, $fn=$fn){
     }
 }
 
-// Generates a leg, such that the leg origin is at at [0, 0, 0]
+// Generates a leg, such that the leg origin is at [0, 0, 0]
 module leg(phi = 84.93, , $fn=$fn){
     // Parameters for top part
     twidth = 1.397;
